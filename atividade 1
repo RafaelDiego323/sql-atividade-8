@@ -1,0 +1,5 @@
+SELECT customers.CustomerID, customers.CustomerName,
+Suppliers.SupplierID, Phone.City
+FROM customers
+RIGHT JOIN suppliers ON customers.CustomerID = Suppliers.SupplierID
+RIGHT JOIN SupplierID ON  customers.CustomerID;
